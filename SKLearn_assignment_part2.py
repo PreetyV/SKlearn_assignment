@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 from sklearn.datasets import load_iris
 from sklearn.cluster import KMeans
@@ -12,8 +7,6 @@ import pandas as pd
 
 
 # # Comparing cluster size impacts in K-means clustering 
-
-# In[2]:
 
 
 def kmeansit():
@@ -30,15 +23,7 @@ def kmeansit():
     plt.show()
 
 
-# In[3]:
-
 
 if __name__ == '__main__':
     kmeansit()
-
-
-# In[ ]:
-
-
-
-
+    
